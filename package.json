@@ -1,0 +1,14 @@
+{
+  "name": "github-as-storage",
+  "version": "1.0.0",
+  "description": "Free storage using github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavan Achyut <medehalachyut@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "20.1.1"
+  }
+}
