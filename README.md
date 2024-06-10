@@ -63,9 +63,9 @@ This package uses @octokit/rest a Github's rest API client.
   
     - On successful upload: Will return the filepath where it is stored similar to s3Key.
       ```js  
-          status: true,
+          status: 'success',
           message: 'Image uploaded to GitHub repository successfully',
-          fileResponse: {
+          response: {
             filePath,
           },
       ```
@@ -78,7 +78,7 @@ This package uses @octokit/rest a Github's rest API client.
       - `filPath`: exact file path of the file (/samples/test/sample.pdf)
     - On successful deletion 
       ```js 
-            status: true,
+            status: 'success',
             message: 'File deleted from GitHub repository successfully.',
        ```
 
