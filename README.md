@@ -3,6 +3,9 @@ This package is an experimental to use github as a storage service similar to AW
 This is helpful for developers who want to work on small projects and pay for storage of file, instead going for some cloud providers. We can use the power of github storage and use it as conventional storage system.
 
 This package uses @octokit/rest a Github's rest API client.
+# Bugs
+If it doesn't work for you or you encounter any error. Please raise a issue with the details. 
+[GITHUB REPO](https://github.com/achyut2000/github-as-storage)
 
 # Prerequisites:
 
